@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-16",
+  "problem": {
+    "id": 10,
+    "type": "vocabulary",
+    "question": "The project was completed _______ schedule, impressing the entire management team.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ahead of"
+      },
+      {
+        "id": "B",
+        "text": "prior to"
+      },
+      {
+        "id": "C",
+        "text": "in advance"
+      },
+      {
+        "id": "D",
+        "text": "before"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "'ahead of schedule'은 '예정보다 앞서, 일정보다 빠르게'라는 의미의 관용 표현입니다. 'prior to'와 'before'는 전치사로 뒤에 명사가 와야 하며, 'in advance'는 '미리'의 의미로 문맥이 맞지 않습니다."
+  }
+}

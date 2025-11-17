@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-17",
+  "problem": {
+    "id": 1,
+    "type": "grammar",
+    "question": "The company's new policy will _______ affect all employees starting next month.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "direct"
+      },
+      {
+        "id": "B",
+        "text": "directly"
+      },
+      {
+        "id": "C",
+        "text": "direction"
+      },
+      {
+        "id": "D",
+        "text": "directness"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "동사 'affect'를 수식하려면 부사 'directly'가 필요합니다. 'direct'는 형용사나 동사로 사용되며, 'direction'과 'directness'는 명사입니다."
+  }
+}

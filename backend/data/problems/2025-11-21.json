@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-21",
+  "problem": {
+    "id": 5,
+    "type": "grammar",
+    "question": "All employees are required _______ the training session next Monday.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "attend"
+      },
+      {
+        "id": "B",
+        "text": "to attend"
+      },
+      {
+        "id": "C",
+        "text": "attending"
+      },
+      {
+        "id": "D",
+        "text": "attended"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "'be required to + 동사원형' 구문이 사용됩니다. 'require'는 목적격보어로 to부정사를 취하는 동사입니다."
+  }
+}

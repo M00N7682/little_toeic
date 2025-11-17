@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-20",
+  "problem": {
+    "id": 4,
+    "type": "vocabulary",
+    "question": "The sales team exceeded their quarterly _______ by 25 percent.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "target"
+      },
+      {
+        "id": "B",
+        "text": "purpose"
+      },
+      {
+        "id": "C",
+        "text": "intention"
+      },
+      {
+        "id": "D",
+        "text": "objective"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "판매 목표를 나타낼 때는 'sales target'이 가장 자연스러운 표현입니다. 'objective'도 가능하지만, 비즈니스 맥락에서 구체적인 수치 목표는 'target'이 더 일반적입니다."
+  }
+}

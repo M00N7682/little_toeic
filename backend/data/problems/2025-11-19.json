@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-19",
+  "problem": {
+    "id": 3,
+    "type": "grammar",
+    "question": "The meeting _______ for two hours when the CEO finally arrived.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "has been going on"
+      },
+      {
+        "id": "B",
+        "text": "had been going on"
+      },
+      {
+        "id": "C",
+        "text": "was going on"
+      },
+      {
+        "id": "D",
+        "text": "is going on"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "과거의 특정 시점(CEO가 도착했을 때) 이전부터 계속 진행되어 온 동작을 나타내므로 과거완료진행형 'had been going on'이 적절합니다."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-18",
+  "problem": {
+    "id": 2,
+    "type": "vocabulary",
+    "question": "Please _______ to the terms and conditions before proceeding with the registration.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "agree"
+      },
+      {
+        "id": "B",
+        "text": "refer"
+      },
+      {
+        "id": "C",
+        "text": "comply"
+      },
+      {
+        "id": "D",
+        "text": "consent"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "'refer to'는 '참조하다, 언급하다'의 의미로 문맥상 적절합니다. 'agree to'는 '동의하다', 'comply with'는 '준수하다', 'consent to'는 '동의하다'의 의미입니다."
+  }
+}
