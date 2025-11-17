@@ -17,15 +17,15 @@ export const apiService = {
     return response.data;
   },
 
-  // Get today's problem
-  async getTodayProblem(): Promise<ProblemResponse> {
-    const response = await api.get<ProblemResponse>('/api/problems/today');
+  // Get random problem
+  async getRandomProblem(): Promise<ProblemResponse> {
+    const response = await api.get<ProblemResponse>('/api/problems/random');
     return response.data;
   },
 
-  // Get problem by date
-  async getProblemByDate(date: string): Promise<ProblemResponse> {
-    const response = await api.get<ProblemResponse>(`/api/problems/${date}`);
+  // Get problem by ID
+  async getProblemById(id: number): Promise<ProblemResponse> {
+    const response = await api.get<ProblemResponse>(`/api/problems/${id}`);
     return response.data;
   },
 };

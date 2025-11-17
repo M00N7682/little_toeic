@@ -7,7 +7,12 @@ export const storageService = {
   getStats(): UserStats {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored) {
-      return JSON.parse(stored);
+      const parsed = JSON.parse(stored);
+      // 이전 버전과의 호환성
+      if (!parsed.solvedProblems) {
+        parsed.solvedProblems = [];
+      }
+      return parsed;
     }
     return {
       totalAttempts: 0,
@@ -15,6 +20,7 @@ export const storageService = {
       streak: 0,
       lastAttemptDate: '',
       history: [],
+      solvedProblems: [],
     };
   },
 
@@ -48,21 +54,24 @@ export const storageService = {
     // Add to history
     stats.history.push(answer);
     
+    // Add to solved problems
+    if (!stats.solvedProblems.includes(answer.problemId)) {
+      stats.solvedProblems.push(answer.problemId);
+    }
+    
     this.saveStats(stats);
   },
 
-  // Check if user has already answered today
-  hasAnsweredToday(): boolean {
+  // Check if problem is already solved
+  isProblemSolved(problemId: number): boolean {
     const stats = this.getStats();
-    const today = new Date().toISOString().split('T')[0];
-    return stats.history.some(h => h.date === today);
+    return stats.solvedProblems.includes(problemId);
   },
 
-  // Get today's answer
-  getTodayAnswer(): UserAnswer | null {
+  // Get answer for specific problem
+  getProblemAnswer(problemId: number): UserAnswer | null {
     const stats = this.getStats();
-    const today = new Date().toISOString().split('T')[0];
-    return stats.history.find(h => h.date === today) || null;
+    return stats.history.find(h => h.problemId === problemId) || null;
   },
 
   // Clear all data

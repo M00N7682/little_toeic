@@ -74,10 +74,10 @@ export default function DashboardPage() {
                   <div className="flex justify-between items-center">
                     <div>
                       <div className="font-semibold text-gray-800">
-                        {record.date}
+                        문제 #{record.problemId}
                       </div>
                       <div className="text-sm text-gray-600">
-                        문제 #{record.problemId} • 선택: {record.selectedAnswer}
+                        선택: {record.selectedAnswer} • {new Date(record.timestamp).toLocaleString('ko-KR')}
                       </div>
                     </div>
                     <div className={`text-2xl ${

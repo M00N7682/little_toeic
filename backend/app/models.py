@@ -21,7 +21,6 @@ class Problem(BaseModel):
 
 class ProblemResponse(BaseModel):
     """Response for problem endpoints"""
-    date: str = Field(..., description="Problem date (YYYY-MM-DD)")
     problem: Problem = Field(..., description="Problem data")
 
 

@@ -10,21 +10,29 @@ export default function ProblemPage() {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [showExplanation, setShowExplanation] = useState(false);
-  const [selectedDate, setSelectedDate] = useState<string>(new Date().toISOString().split('T')[0]);
 
   useEffect(() => {
-    loadProblem(selectedDate);
-    checkPreviousAnswer(selectedDate);
-  }, [selectedDate]);
+    loadRandomProblem();
+  }, []);
 
-  const loadProblem = async (date: string) => {
+  const loadRandomProblem = async () => {
     try {
       setLoading(true);
-      const data = date === new Date().toISOString().split('T')[0]
-        ? await apiService.getTodayProblem()
-        : await apiService.getProblemByDate(date);
+      const data = await apiService.getRandomProblem();
       setProblem(data);
       setError(null);
+      
+      // 이미 푼 문제인지 확인
+      const previousAnswer = storageService.getProblemAnswer(data.problem.id);
+      if (previousAnswer) {
+        setSelectedAnswer(previousAnswer.selectedAnswer);
+        setSubmitted(true);
+        setShowExplanation(true);
+      } else {
+        setSelectedAnswer(null);
+        setSubmitted(false);
+        setShowExplanation(false);
+      }
     } catch (err) {
       setError('문제를 불러오는데 실패했습니다.');
       console.error(err);
@@ -33,39 +41,12 @@ export default function ProblemPage() {
     }
   };
 
-  const checkPreviousAnswer = (date: string) => {
-    const stats = storageService.getStats();
-    const answer = stats.history.find(h => h.date === date);
-    if (answer) {
-      setSelectedAnswer(answer.selectedAnswer);
-      setSubmitted(true);
-      setShowExplanation(true);
-    } else {
-      setSelectedAnswer(null);
-      setSubmitted(false);
-      setShowExplanation(false);
-    }
-  };
-
-  const navigateDate = (offset: number) => {
-    const currentDate = new Date(selectedDate);
-    currentDate.setDate(currentDate.getDate() + offset);
-    const newDate = currentDate.toISOString().split('T')[0];
-    const today = new Date().toISOString().split('T')[0];
-    
-    // 미래 날짜는 불가
-    if (newDate > today) return;
-    
-    setSelectedDate(newDate);
-  };
-
   const handleSubmit = () => {
     if (!selectedAnswer || !problem) return;
 
     const isCorrect = selectedAnswer === problem.problem.correct_answer;
     
     storageService.addAnswer({
-      date: problem.date,
       problemId: problem.problem.id,
       selectedAnswer,
       isCorrect,
@@ -74,6 +55,10 @@ export default function ProblemPage() {
 
     setSubmitted(true);
     setShowExplanation(true);
+  };
+
+  const handleNextProblem = () => {
+    loadRandomProblem();
   };
 
   if (loading) {
@@ -93,9 +78,7 @@ export default function ProblemPage() {
   }
 
   const isCorrect = selectedAnswer === problem.problem.correct_answer;
-
-  const today = new Date().toISOString().split('T')[0];
-  const canGoNext = selectedDate < today;
+  const stats = storageService.getStats();
 
   return (
     <div className="min-h-screen bg-gray-50 py-8 px-4">
@@ -103,41 +86,19 @@ export default function ProblemPage() {
         {/* Header */}
         <div className="bg-white rounded-lg shadow-md p-6 mb-6">
           <div className="flex items-center justify-between mb-4">
-            <h1 className="text-3xl font-bold text-gray-800">토익 문제</h1>
-            <div className="flex items-center gap-2">
-              <button
-                onClick={() => navigateDate(-1)}
-                className="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-lg font-medium transition-colors"
-              >
-                ← 이전
-              </button>
-              <button
-                onClick={() => navigateDate(1)}
-                disabled={!canGoNext}
-                className="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-lg font-medium transition-colors
-                         disabled:bg-gray-100 disabled:text-gray-400 disabled:cursor-not-allowed"
-              >
-                다음 →
-              </button>
+            <h1 className="text-3xl font-bold text-gray-800">토익 RC 문제</h1>
+            <div className="text-sm text-gray-600">
+              문제 #{problem.problem.id}
             </div>
           </div>
-          <div className="flex items-center gap-3 mb-2">
-            <input
-              type="date"
-              value={selectedDate}
-              max={today}
-              onChange={(e) => setSelectedDate(e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-            {selectedDate === today && (
-              <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">
-                오늘의 문제
-              </span>
-            )}
+          <div className="flex items-center gap-3">
+            <span className="inline-block px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
+              {problem.problem.type}
+            </span>
+            <span className="text-sm text-gray-600">
+              풀이 완료: {stats.solvedProblems.length}개
+            </span>
           </div>
-          <span className="inline-block mt-2 px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
-            {problem.problem.type}
-          </span>
         </div>
 
         {/* Question */}
@@ -195,6 +156,17 @@ export default function ProblemPage() {
                      transition-colors shadow-md"
           >
             제출하기
+          </button>
+        )}
+
+        {/* Next Problem Button */}
+        {submitted && (
+          <button
+            onClick={handleNextProblem}
+            className="w-full bg-green-600 text-white py-4 rounded-lg font-semibold text-lg
+                     hover:bg-green-700 transition-colors shadow-md"
+          >
+            다음 문제 →
           </button>
         )}
 

@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime
+import os
 from app.api import problems
 from app.models import HealthResponse
 
@@ -11,9 +12,11 @@ app = FastAPI(
 )
 
 # CORS 설정
+allowed_origins = os.getenv("ALLOWED_ORIGINS", "*").split(",")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # 프로덕션에서는 구체적인 도메인으로 제한
+    allow_origins=allowed_origins if allowed_origins != ["*"] else ["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

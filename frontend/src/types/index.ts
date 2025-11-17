@@ -14,7 +14,6 @@ export interface Problem {
 }
 
 export interface ProblemResponse {
-  date: string;
   problem: Problem;
 }
 
@@ -26,7 +25,6 @@ export interface HealthResponse {
 
 // Local Storage Types
 export interface UserAnswer {
-  date: string;
   problemId: number;
   selectedAnswer: string;
   isCorrect: boolean;
@@ -39,4 +37,5 @@ export interface UserStats {
   streak: number;
   lastAttemptDate: string;
   history: UserAnswer[];
+  solvedProblems: number[];  // 이미 푼 문제 ID 목록
 }
