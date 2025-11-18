@@ -22,8 +22,7 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "요청·명령·제안 동사(request, recommend 등) 뒤의 that절에서는 ‘should + 동사원형’ 구조이므로 ‘be submitted’가 적절함.",
-      "id": 1
+      "explanation": "요청·명령·제안 동사(request, recommend 등) 뒤의 that절에서는 ‘should + 동사원형’ 구조이므로 ‘be submitted’가 적절함."
     },
     {
       "type": "grammar",
@@ -47,8 +46,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "'until ~까지'의 의미로 특정 시점 이전에는 이용할 수 없음을 나타냄.",
-      "id": 2
+      "explanation": "'until ~까지'의 의미로 특정 시점 이전에는 이용할 수 없음을 나타냄."
     },
     {
       "type": "grammar",
@@ -72,8 +70,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "조동사 must 뒤에는 동사원형 complete가 온다.",
-      "id": 3
+      "explanation": "조동사 must 뒤에는 동사원형 complete가 온다."
     },
     {
       "type": "grammar",
@@ -97,8 +94,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "'~, indicating ~'은 앞 내용을 설명하는 분사구문으로 적절하다.",
-      "id": 4
+      "explanation": "'~, indicating ~'은 앞 내용을 설명하는 분사구문으로 적절하다."
     },
     {
       "type": "grammar",
@@ -122,8 +118,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "if절이 현재형이면 미래를 나타내는 조건을 말할 때 현재시제를 쓴다.",
-      "id": 5
+      "explanation": "if절이 현재형이면 미래를 나타내는 조건을 말할 때 현재시제를 쓴다."
     },
     {
       "type": "grammar",
@@ -147,8 +142,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "be expected to + 동사원형 구조.",
-      "id": 6
+      "explanation": "be expected to + 동사원형 구조."
     },
     {
       "type": "grammar",
@@ -172,8 +166,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "‘once + 절’에서 수동 의미이므로 are submitted가 적절함.",
-      "id": 7
+      "explanation": "‘once + 절’에서 수동 의미이므로 are submitted가 적절함."
     },
     {
       "type": "grammar",
@@ -197,8 +190,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "주어가 단수이므로 remains가 적절하며 시제도 현재가 맞음.",
-      "id": 8
+      "explanation": "주어가 단수이므로 remains가 적절하며 시제도 현재가 맞음."
     },
     {
       "type": "grammar",
@@ -222,8 +214,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "need + p.p. 형태는 ‘~될 필요가 있다’라는 의미.",
-      "id": 9
+      "explanation": "need + p.p. 형태는 ‘~될 필요가 있다’라는 의미."
     },
     {
       "type": "grammar",
@@ -247,8 +238,7 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "ensure that 뒤에서 수동태가 필요한 문맥.",
-      "id": 10
+      "explanation": "ensure that 뒤에서 수동태가 필요한 문맥."
     },
     {
       "type": "grammar",
@@ -272,8 +262,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "'because of + 명사' 구조.",
-      "id": 11
+      "explanation": "'because of + 명사' 구조."
     },
     {
       "type": "grammar",
@@ -297,8 +286,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "be encouraged to + 동사원형.",
-      "id": 12
+      "explanation": "be encouraged to + 동사원형."
     },
     {
       "type": "grammar",
@@ -322,8 +310,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "'unless ~하지 않는 한'의 조건.",
-      "id": 13
+      "explanation": "'unless ~하지 않는 한'의 조건."
     },
     {
       "type": "grammar",
@@ -347,8 +334,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 14
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -372,8 +358,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 15
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -397,8 +382,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 16
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -422,8 +406,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 17
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -447,8 +430,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 18
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -472,8 +454,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 19
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -497,8 +478,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 20
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -522,8 +502,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 21
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -547,8 +526,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 22
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -572,8 +550,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 23
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -597,8 +574,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 24
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -622,8 +598,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 25
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -647,8 +622,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 26
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -672,8 +646,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 27
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -697,8 +670,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 28
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -722,8 +694,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 29
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -747,8 +718,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 30
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -772,8 +742,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 31
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -797,8 +766,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 32
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -822,8 +790,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 33
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -847,8 +814,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 34
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -872,8 +838,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 35
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -897,8 +862,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 36
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -922,8 +886,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 37
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -947,8 +910,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 38
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -972,8 +934,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 39
+      "explanation": "by + 동명사 구조."
     },
     {
       "type": "grammar",
@@ -997,8 +958,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "by + 동명사 구조.",
-      "id": 40
+      "explanation": "by + 동명사 구조."
     },
     {
       "id": 41,

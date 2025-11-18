@@ -27,6 +27,7 @@ export interface HealthResponse {
 export interface UserAnswer {
   problemId: number;
   selectedAnswer: string;
+  correctAnswer: string;
   isCorrect: boolean;
   timestamp: string;
 }

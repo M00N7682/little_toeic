@@ -49,6 +49,7 @@ export default function ProblemPage() {
     storageService.addAnswer({
       problemId: problem.problem.id,
       selectedAnswer,
+      correctAnswer: problem.problem.correct_answer,
       isCorrect,
       timestamp: new Date().toISOString(),
     });
