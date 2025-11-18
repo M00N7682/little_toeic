@@ -1,6 +1,7 @@
 # Little TOEIC
 
 매일 새로운 토익 RC 문제를 제공하는 웹 서비스
+https://liltoeic.ddstudio.co.kr/
 
 ## 프로젝트 개요
 - **컨셉**: 로그인 없이 즉시 학습 가능한 토익 문제 풀이 플랫폼
@@ -30,8 +31,10 @@ little_toeic/
 └── toeic_site_docs/   # 프로젝트 기획/요구사항 문서
 ```
 
-## 시작하기
+## 바로 시작하기
+https://liltoeic.ddstudio.co.kr/
 
+## 로컬에서 시작하기
 ### Backend
 ```bash
 cd backend
