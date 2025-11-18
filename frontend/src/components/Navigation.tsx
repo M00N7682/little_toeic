@@ -13,7 +13,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-blue-600">Little TOEIC</h1>
+            <h1 className="text-2xl font-bold text-blue-600">Lil TOEIC</h1>
           </div>
           <div className="flex space-x-4">
             {navItems.map((item) => (
