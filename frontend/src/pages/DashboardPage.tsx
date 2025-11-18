@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { storageService } from '../services/storage';
 import { apiService } from '../services/api';
-import type { UserStats, UserAnswer, Problem } from '../types';
+import type { UserStats, Problem } from '../types';
 
 export default function DashboardPage() {
   const [stats, setStats] = useState<UserStats | null>(null);
