@@ -1,82 +1,1464 @@
 {
   "problems": [
     {
-      "id": 1,
       "type": "grammar",
-      "question": "The company's new policy will _______ affect all employees starting next month.",
+      "question": "The manager requested that all reports _______ by Friday afternoon.",
       "choices": [
-        {"id": "A", "text": "direct"},
-        {"id": "B", "text": "directly"},
-        {"id": "C", "text": "direction"},
-        {"id": "D", "text": "directness"}
+        {
+          "id": "A",
+          "text": "submit"
+        },
+        {
+          "id": "B",
+          "text": "submitted"
+        },
+        {
+          "id": "C",
+          "text": "be submitted"
+        },
+        {
+          "id": "D",
+          "text": "are submitting"
+        }
       ],
-      "correct_answer": "B",
-      "explanation": "동사 'affect'를 수식하려면 부사 'directly'가 필요합니다. 'direct'는 형용사나 동사로 사용되며, 'direction'과 'directness'는 명사입니다."
+      "correct_answer": "C",
+      "explanation": "요청·명령·제안 동사(request, recommend 등) 뒤의 that절에서는 ‘should + 동사원형’ 구조이므로 ‘be submitted’가 적절함."
     },
     {
-      "id": 2,
-      "type": "vocabulary",
-      "question": "Please _______ to the terms and conditions before proceeding with the registration.",
-      "choices": [
-        {"id": "A", "text": "agree"},
-        {"id": "B", "text": "refer"},
-        {"id": "C", "text": "comply"},
-        {"id": "D", "text": "consent"}
-      ],
-      "correct_answer": "B",
-      "explanation": "'refer to'는 '참조하다, 언급하다'의 의미로 문맥상 적절합니다. 'agree to'는 '동의하다', 'comply with'는 '준수하다', 'consent to'는 '동의하다'의 의미입니다."
-    },
-    {
-      "id": 3,
       "type": "grammar",
-      "question": "The meeting _______ for two hours when the CEO finally arrived.",
+      "question": "The new software update will not be available _______ the end of the quarter.",
       "choices": [
-        {"id": "A", "text": "has been going on"},
-        {"id": "B", "text": "had been going on"},
-        {"id": "C", "text": "was going on"},
-        {"id": "D", "text": "is going on"}
-      ],
-      "correct_answer": "B",
-      "explanation": "과거의 특정 시점(CEO가 도착했을 때) 이전부터 계속 진행되어 온 동작을 나타내므로 과거완료진행형 'had been going on'이 적절합니다."
-    },
-    {
-      "id": 4,
-      "type": "vocabulary",
-      "question": "The sales team exceeded their quarterly _______ by 25 percent.",
-      "choices": [
-        {"id": "A", "text": "target"},
-        {"id": "B", "text": "purpose"},
-        {"id": "C", "text": "intention"},
-        {"id": "D", "text": "objective"}
+        {
+          "id": "A",
+          "text": "until"
+        },
+        {
+          "id": "B",
+          "text": "during"
+        },
+        {
+          "id": "C",
+          "text": "from"
+        },
+        {
+          "id": "D",
+          "text": "through"
+        }
       ],
       "correct_answer": "A",
-      "explanation": "판매 목표를 나타낼 때는 'sales target'이 가장 자연스러운 표현입니다. 'objective'도 가능하지만, 비즈니스 맥락에서 구체적인 수치 목표는 'target'이 더 일반적입니다."
+      "explanation": "'until ~까지'의 의미로 특정 시점 이전에는 이용할 수 없음을 나타냄."
     },
     {
-      "id": 5,
       "type": "grammar",
-      "question": "All employees are required _______ the training session next Monday.",
+      "question": "All interns must _______ the orientation program before starting their assignments.",
       "choices": [
-        {"id": "A", "text": "attend"},
-        {"id": "B", "text": "to attend"},
-        {"id": "C", "text": "attending"},
-        {"id": "D", "text": "attended"}
-      ],
-      "correct_answer": "B",
-      "explanation": "'be required to + 동사원형' 구문이 사용됩니다. 'require'는 목적격보어로 to부정사를 취하는 동사입니다."
-    },
-    {
-      "id": 6,
-      "type": "vocabulary",
-      "question": "The project was completed _______ schedule, impressing the entire management team.",
-      "choices": [
-        {"id": "A", "text": "ahead of"},
-        {"id": "B", "text": "prior to"},
-        {"id": "C", "text": "in advance"},
-        {"id": "D", "text": "before"}
+        {
+          "id": "A",
+          "text": "complete"
+        },
+        {
+          "id": "B",
+          "text": "to complete"
+        },
+        {
+          "id": "C",
+          "text": "completed"
+        },
+        {
+          "id": "D",
+          "text": "completes"
+        }
       ],
       "correct_answer": "A",
-      "explanation": "'ahead of schedule'은 '예정보다 앞서, 일정보다 빠르게'라는 의미의 관용 표현입니다. 'prior to'와 'before'는 전치사로 뒤에 명사가 와야 하며, 'in advance'는 '미리'의 의미로 문맥이 맞지 않습니다."
+      "explanation": "조동사 must 뒤에는 동사원형 complete가 온다."
+    },
+    {
+      "type": "grammar",
+      "question": "Sales figures for the first quarter were significantly higher than those of the previous year, _______ the new marketing strategy was effective.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "indicating"
+        },
+        {
+          "id": "B",
+          "text": "indicated"
+        },
+        {
+          "id": "C",
+          "text": "to indicate"
+        },
+        {
+          "id": "D",
+          "text": "indicates"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "'~, indicating ~'은 앞 내용을 설명하는 분사구문으로 적절하다."
+    },
+    {
+      "type": "grammar",
+      "question": "Mr. Lee will be promoted to department head if he _______ to exceed the company’s performance goals.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "continues"
+        },
+        {
+          "id": "B",
+          "text": "continued"
+        },
+        {
+          "id": "C",
+          "text": "continuing"
+        },
+        {
+          "id": "D",
+          "text": "to continue"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "if절이 현재형이면 미래를 나타내는 조건을 말할 때 현재시제를 쓴다."
+    },
+    {
+      "type": "grammar",
+      "question": "The factory has invested heavily in new equipment, which is expected _______ productivity.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "to improve"
+        },
+        {
+          "id": "B",
+          "text": "improving"
+        },
+        {
+          "id": "C",
+          "text": "improved"
+        },
+        {
+          "id": "D",
+          "text": "improves"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "be expected to + 동사원형 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The committee will review the proposal once all required documents _______.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "submitting"
+        },
+        {
+          "id": "B",
+          "text": "are submitted"
+        },
+        {
+          "id": "C",
+          "text": "submit"
+        },
+        {
+          "id": "D",
+          "text": "to submit"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "‘once + 절’에서 수동 의미이므로 are submitted가 적절함."
+    },
+    {
+      "type": "grammar",
+      "question": "The CEO emphasized that customer satisfaction _______ the company’s top priority.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "remains"
+        },
+        {
+          "id": "B",
+          "text": "remain"
+        },
+        {
+          "id": "C",
+          "text": "remained"
+        },
+        {
+          "id": "D",
+          "text": "remaining"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "주어가 단수이므로 remains가 적절하며 시제도 현재가 맞음."
+    },
+    {
+      "type": "grammar",
+      "question": "The survey results will help management determine whether the current policy needs _______.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "revised"
+        },
+        {
+          "id": "B",
+          "text": "revising"
+        },
+        {
+          "id": "C",
+          "text": "to be revise"
+        },
+        {
+          "id": "D",
+          "text": "to revising"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "need + p.p. 형태는 ‘~될 필요가 있다’라는 의미."
+    },
+    {
+      "type": "grammar",
+      "question": "The accounting team is responsible for ensuring that all financial data _______ accurately.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "recorded"
+        },
+        {
+          "id": "B",
+          "text": "records"
+        },
+        {
+          "id": "C",
+          "text": "is recording"
+        },
+        {
+          "id": "D",
+          "text": "is recorded"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "ensure that 뒤에서 수동태가 필요한 문맥."
+    },
+    {
+      "type": "grammar",
+      "question": "The product launch was delayed _______ unforeseen technical problems.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "because"
+        },
+        {
+          "id": "B",
+          "text": "because of"
+        },
+        {
+          "id": "C",
+          "text": "although"
+        },
+        {
+          "id": "D",
+          "text": "despite of"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "'because of + 명사' 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "All candidates are encouraged _______ early to avoid long wait times.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "arrive"
+        },
+        {
+          "id": "B",
+          "text": "to arrive"
+        },
+        {
+          "id": "C",
+          "text": "arriving"
+        },
+        {
+          "id": "D",
+          "text": "arrived"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "be encouraged to + 동사원형."
+    },
+    {
+      "type": "grammar",
+      "question": "The director will not approve the budget increase _______ the team provides additional justification.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "if"
+        },
+        {
+          "id": "B",
+          "text": "unless"
+        },
+        {
+          "id": "C",
+          "text": "whether"
+        },
+        {
+          "id": "D",
+          "text": "despite"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "'unless ~하지 않는 한'의 조건."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "type": "grammar",
+      "question": "The company aims to reduce operational costs by _______ its supply chain processes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "streamline"
+        },
+        {
+          "id": "B",
+          "text": "streamlining"
+        },
+        {
+          "id": "C",
+          "text": "streamlined"
+        },
+        {
+          "id": "D",
+          "text": "to streamlined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "by + 동명사 구조."
+    },
+    {
+      "id": 41,
+      "type": "vocabulary",
+      "question": "The board members reached a unanimous _______ on the expansion plan.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "decision"
+        },
+        {
+          "id": "B",
+          "text": "decide"
+        },
+        {
+          "id": "C",
+          "text": "decisive"
+        },
+        {
+          "id": "D",
+          "text": "decided"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "‘reach a decision’은 매우 흔한 비즈니스 콜로케이션."
+    },
+    {
+      "id": 42,
+      "type": "vocabulary",
+      "question": "The new training program aims to _______ employees' communication skills.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "enhance"
+        },
+        {
+          "id": "B",
+          "text": "enlarge"
+        },
+        {
+          "id": "C",
+          "text": "enrich"
+        },
+        {
+          "id": "D",
+          "text": "ensure"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "enhance는 능력·품질을 향상시키다라는 기본 표현."
+    },
+    {
+      "id": 43,
+      "type": "vocabulary",
+      "question": "The supplier failed to meet the delivery _______ stated in the contract.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "conditions"
+        },
+        {
+          "id": "B",
+          "text": "conduct"
+        },
+        {
+          "id": "C",
+          "text": "conduction"
+        },
+        {
+          "id": "D",
+          "text": "conditioning"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "delivery conditions는 계약서에서 흔히 쓰는 표현."
+    },
+    {
+      "id": 44,
+      "type": "adj_adv",
+      "question": "The machine operates more _______ after the recent software upgrade.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "efficient"
+        },
+        {
+          "id": "B",
+          "text": "efficiency"
+        },
+        {
+          "id": "C",
+          "text": "efficiently"
+        },
+        {
+          "id": "D",
+          "text": "most efficient"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "operate는 동사이므로 부사 efficiently가 적절."
+    },
+    {
+      "id": 45,
+      "type": "adj_adv",
+      "question": "The supervisor gave a _______ detailed explanation of the new system.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "high"
+        },
+        {
+          "id": "B",
+          "text": "highly"
+        },
+        {
+          "id": "C",
+          "text": "height"
+        },
+        {
+          "id": "D",
+          "text": "higher"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "'highly detailed'는 숙어적 조합."
+    },
+    {
+      "id": 46,
+      "type": "adj_adv",
+      "question": "The CEO was _______ impressed by the team's performance last quarter.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "deep"
+        },
+        {
+          "id": "B",
+          "text": "deeper"
+        },
+        {
+          "id": "C",
+          "text": "deeply"
+        },
+        {
+          "id": "D",
+          "text": "deepness"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "감정동사(impressed)는 보통 부사 deepLY로 수식."
+    },
+    {
+      "id": 47,
+      "type": "preposition",
+      "question": "The new facility will be completed _______ twelve months.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "within"
+        },
+        {
+          "id": "B",
+          "text": "among"
+        },
+        {
+          "id": "C",
+          "text": "beside"
+        },
+        {
+          "id": "D",
+          "text": "across"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "within 기간: 기간 이내에."
+    },
+    {
+      "id": 48,
+      "type": "preposition",
+      "question": "We apologize _______ the inconvenience caused during the maintenance.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "on"
+        },
+        {
+          "id": "B",
+          "text": "for"
+        },
+        {
+          "id": "C",
+          "text": "about"
+        },
+        {
+          "id": "D",
+          "text": "to"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "'apologize for' 고정 표현."
+    },
+    {
+      "id": 49,
+      "type": "preposition",
+      "question": "The company is committed _______ reducing its carbon emissions.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "to"
+        },
+        {
+          "id": "B",
+          "text": "with"
+        },
+        {
+          "id": "C",
+          "text": "for"
+        },
+        {
+          "id": "D",
+          "text": "by"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "'be committed to + 동명사'."
+    },
+    {
+      "id": 50,
+      "type": "conjunction",
+      "question": "The marketing campaign was successful, _______ the product quality had not changed.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "although"
+        },
+        {
+          "id": "B",
+          "text": "because"
+        },
+        {
+          "id": "C",
+          "text": "so"
+        },
+        {
+          "id": "D",
+          "text": "therefore"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "대조 관계."
+    },
+    {
+      "id": 51,
+      "type": "conjunction",
+      "question": "The report must be completed today, _______ the deadline cannot be extended.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "for"
+        },
+        {
+          "id": "B",
+          "text": "yet"
+        },
+        {
+          "id": "C",
+          "text": "and"
+        },
+        {
+          "id": "D",
+          "text": "but"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "'for' = 이유 (~이기 때문이다)."
+    },
+    {
+      "id": 52,
+      "type": "conjunction",
+      "question": "Please review the attached file _______ provide feedback by Thursday.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "or"
+        },
+        {
+          "id": "B",
+          "text": "and"
+        },
+        {
+          "id": "C",
+          "text": "so"
+        },
+        {
+          "id": "D",
+          "text": "since"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "review and provide: 병렬."
+    },
+    {
+      "id": 53,
+      "type": "vocabulary",
+      "question": "The HR department will _______ applicants based on experience and communication skills.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "screen"
+        },
+        {
+          "id": "B",
+          "text": "screening"
+        },
+        {
+          "id": "C",
+          "text": "screened"
+        },
+        {
+          "id": "D",
+          "text": "to screen"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "'screen applicants' = 지원자를 선별하다."
+    },
+    {
+      "id": 54,
+      "type": "vocabulary",
+      "question": "The company is known for its _______ approach to customer service.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "innovative"
+        },
+        {
+          "id": "B",
+          "text": "innovation"
+        },
+        {
+          "id": "C",
+          "text": "innovate"
+        },
+        {
+          "id": "D",
+          "text": "innovating"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "approach를 수식하는 형용사."
+    },
+    {
+      "id": 55,
+      "type": "vocabulary",
+      "question": "The CEO provided a _______ overview of the company's long-term strategy.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "comprehensive"
+        },
+        {
+          "id": "B",
+          "text": "comprehend"
+        },
+        {
+          "id": "C",
+          "text": "comprehensively"
+        },
+        {
+          "id": "D",
+          "text": "comprehension"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "overview를 꾸미는 형용사 필요."
+    },
+    {
+      "id": 56,
+      "type": "adj_adv",
+      "question": "Customer inquiries are handled _______ to ensure consistent service quality.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "profession"
+        },
+        {
+          "id": "B",
+          "text": "professional"
+        },
+        {
+          "id": "C",
+          "text": "professionally"
+        },
+        {
+          "id": "D",
+          "text": "professionals"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "handle은 동사 → 부사 professionally 필요."
+    },
+    {
+      "id": 57,
+      "type": "adj_adv",
+      "question": "The device failed to operate _______ under extreme temperatures.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "proper"
+        },
+        {
+          "id": "B",
+          "text": "properly"
+        },
+        {
+          "id": "C",
+          "text": "properness"
+        },
+        {
+          "id": "D",
+          "text": "being proper"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "operate는 동사 → properly."
+    },
+    {
+      "id": 58,
+      "type": "preposition",
+      "question": "The renovation project is scheduled to begin _______ early October.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "in"
+        },
+        {
+          "id": "B",
+          "text": "on"
+        },
+        {
+          "id": "C",
+          "text": "at"
+        },
+        {
+          "id": "D",
+          "text": "during"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "in early October: 월/기간 표현."
+    },
+    {
+      "id": 59,
+      "type": "preposition",
+      "question": "The contract is valid _______ both parties sign the final agreement.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "although"
+        },
+        {
+          "id": "B",
+          "text": "until"
+        },
+        {
+          "id": "C",
+          "text": "once"
+        },
+        {
+          "id": "D",
+          "text": "since"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "'once ~하면' 시간 조건절."
+    },
+    {
+      "id": 60,
+      "type": "conjunction",
+      "question": "The new policy will take effect next month, _______ employees will be notified in advance.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "and"
+        },
+        {
+          "id": "B",
+          "text": "but"
+        },
+        {
+          "id": "C",
+          "text": "so"
+        },
+        {
+          "id": "D",
+          "text": "while"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "단순 병렬."
     }
   ]
 }
